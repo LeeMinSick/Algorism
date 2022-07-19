@@ -164,6 +164,90 @@ public class Ex2 {
     }
 
     public void sixth(){
+        int h;
+        int m;
+        int number;
+        String s;
+        String[] str = new String[3];
+
+        System.out.println("재료를 오븐에 넣는 시각과 조리 시간을 입력해주세요.");
+
+        try {
+            s = br.readLine();
+            str = s.split(" ");
+
+            h = Integer.parseInt(str[0]);
+            m = Integer.parseInt(str[1]);
+            number = Integer.parseInt(str[2]);
+
+            if ((m + number) >= 60){
+
+                h += (m + number)/60;
+                m = (m + number)%60;
+
+                if(h >= 24){
+                    h = h%24;
+                }
+
+            }else {
+                m += number;
+            }
+
+            bw.write(h + " " + m);
+            bw.flush();
+            bw.newLine();
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
+    }
+
+    public void seventh(){
+        int firstDice;
+        int secondDice;
+        int thirdDice;
+        String s;
+        String[] str = new String[3];
+        int answer = 0;
+
+        System.out.println("3개의 주사위 눈의 수를 입력해주세요.");
+
+        try {
+            s = br.readLine();
+
+            str = s.split(" ");
+            firstDice = Integer.parseInt(str[0]);
+            secondDice = Integer.parseInt(str[1]);
+            thirdDice = Integer.parseInt(str[2]);
+
+            if(firstDice == secondDice && firstDice == thirdDice){
+                answer = 10000 + (firstDice*1000);
+            } else if (firstDice == secondDice && firstDice != thirdDice) {
+                answer = 1000 + (firstDice*100);
+            } else if (firstDice != secondDice && firstDice == thirdDice) {
+                answer = 1000 + (firstDice*100);
+            } else if (secondDice == thirdDice && secondDice != firstDice) {
+                answer = 1000 + (secondDice*100);
+            } else if (firstDice != secondDice && firstDice != thirdDice) {
+
+                if(firstDice > secondDice && firstDice > thirdDice){
+                    answer = firstDice*100;
+                } else if (secondDice > firstDice && secondDice > thirdDice) {
+                    answer = secondDice*100;
+                } else if (thirdDice > firstDice && thirdDice > secondDice) {
+                    answer = thirdDice*100;
+                }
+            }
+
+            bw.write(String.valueOf(answer));
+            bw.flush();
+            bw.newLine();
+
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
 
     }
 

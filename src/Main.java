@@ -25,6 +25,8 @@ public class Main {
 //        ex2.second();
 //        ex2.third();
 //        ex2.fourth();
-        ex2.fifth();
+//        ex2.fifth();
+//        ex2.sixth();
+        ex2.seventh();
     }
 }
