@@ -24,9 +24,8 @@ public class Ex1 {
         System.out.println("\\    /\\");
         System.out.println(" )  ( ')");
         System.out.println("(  /  )");
-        System.out.println("\\(__)|");
+        System.out.println(" \\(__)|");
         System.out.println();
-
     }
 
     public void fourth(){
@@ -240,7 +239,7 @@ public class Ex1 {
 
         System.out.println("         ,r'\"7");
         System.out.println("r`-_   ,'  ,/");
-        System.out.println("\\. \". L_r'");
+        System.out.println(" \\. \". L_r'");
         System.out.println("   `~\\/");
         System.out.println("      |");
         System.out.println("      |");
