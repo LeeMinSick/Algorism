@@ -381,7 +381,6 @@ public class Ex3 {
             e.printStackTrace();
         }
 
-
     }
 
 

@@ -1,6 +1,7 @@
 import ex.Ex1;
 import ex.Ex2;
 import ex.Ex3;
+import ex.Ex4;
 
 public class Main {
 
@@ -46,5 +47,14 @@ public class Main {
 //        ex3.twelfth();
 //        ex3.thirteenth();
 //        ex3.fourteenth();
+
+        Ex4 ex4 = new Ex4();
+//        ex4.first();
+//        ex4.second();
+//        ex4.third();
+//        ex4.fourth();
+//        ex4.fifth();
+//        ex4.sixth();
+        ex4.seventh();
     }
 }
