@@ -1,7 +1,4 @@
-import ex.Ex1;
-import ex.Ex2;
-import ex.Ex3;
-import ex.Ex4;
+import ex.*;
 
 public class Main {
 
@@ -48,13 +45,18 @@ public class Main {
 //        ex3.thirteenth();
 //        ex3.fourteenth();
 
-        Ex4 ex4 = new Ex4();
+//        Ex4 ex4 = new Ex4();
 //        ex4.first();
 //        ex4.second();
 //        ex4.third();
 //        ex4.fourth();
 //        ex4.fifth();
 //        ex4.sixth();
-        ex4.seventh();
+//        ex4.seventh();
+
+        Ex5 ex5 = new Ex5();
+//        System.out.println(ex5.first(new int[]{1,2,3}));
+//        ex5.second();
+        ex5.third();
     }
 }
