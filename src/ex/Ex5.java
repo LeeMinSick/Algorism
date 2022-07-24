@@ -15,7 +15,7 @@ public class Ex5 {
 
         for (int i = 0; i < a.length; i++){
             sum += a[i];
-        }
+        }//end int i for
 
         return sum;
     }
@@ -55,7 +55,7 @@ public class Ex5 {
                 bw.write(String.valueOf(listNumber));
                 bw.newLine();
                 bw.flush();
-            }
+            }//end int listNumber for
 
         }catch (IOException e){
             e.printStackTrace();
@@ -87,7 +87,7 @@ public class Ex5 {
                     }else {
                         arithmeticSequence = true;
                     }
-                }
+                }//end int j for
 
                 if (arithmeticSequence == true){
                     count++;

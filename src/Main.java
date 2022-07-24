@@ -54,9 +54,21 @@ public class Main {
 //        ex4.sixth();
 //        ex4.seventh();
 
-        Ex5 ex5 = new Ex5();
+//        Ex5 ex5 = new Ex5();
 //        System.out.println(ex5.first(new int[]{1,2,3}));
 //        ex5.second();
-        ex5.third();
+//        ex5.third();
+
+        Ex6 ex6 = new Ex6();
+//        ex6.first();
+//        ex6.second();
+//        ex6.third();
+//        ex6.fourth();
+//        ex6.fifth();
+//        ex6.sixth();
+//        ex6.seventh();
+//        ex6.eighth();
+//        ex6.nineth();
+        ex6.tenth();
     }
 }
