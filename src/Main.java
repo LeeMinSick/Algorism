@@ -59,7 +59,7 @@ public class Main {
 //        ex5.second();
 //        ex5.third();
 
-        Ex6 ex6 = new Ex6();
+//        Ex6 ex6 = new Ex6();
 //        ex6.first();
 //        ex6.second();
 //        ex6.third();
@@ -69,6 +69,16 @@ public class Main {
 //        ex6.seventh();
 //        ex6.eighth();
 //        ex6.nineth();
-        ex6.tenth();
+//        ex6.tenth();
+
+        Ex7 ex7 = new Ex7();
+//        ex7.first();
+//        ex7.second();
+//        ex7.third();
+//        ex7.fourth();
+//        ex7.fifth();
+//        ex7.sixth();
+//        ex7.seventh();
+        ex7.eighth();
     }
 }
